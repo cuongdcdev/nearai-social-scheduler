@@ -1,0 +1,29 @@
+{
+  "name": "social-media-scheduler",
+  "version": "1.0.0",
+  "description": "An application designed to automate the posting of content to a Telegram group.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@near-wallet-selector/core": "^8.10.0",
+    "@near-wallet-selector/meteor-wallet": "^8.10.0",
+    "@tailwindcss/postcss": "^4.0.6",
+    "crypto": "^1.0.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6",
+    "typescript": "latest"
+  },
+  "license": "MIT"
+}

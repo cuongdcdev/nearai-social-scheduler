@@ -1,0 +1,34 @@
+
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold mb-4;
+  }
+  h2 {
+    @apply text-xl font-semibold mb-3;
+  }
+  p {
+    @apply mb-2;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors;
+  }
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+}
